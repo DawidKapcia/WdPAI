@@ -1,0 +1,26 @@
+nav {
+    background-color: white;
+    height: 100px;
+    width: 100vw;
+    box-shadow: rgba(33, 35, 38, 0.1) 0px 10px 10px -10px;
+    gap: 2em;
+}
+
+nav > a {
+    text-decoration: none;
+    color: black;
+
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+nav > a > i {
+    font-size: 2em;
+    gap: 0.5em;
+}
+
+nav > a:hover {
+    border-bottom: 2px solid black;
+}
